@@ -14,8 +14,8 @@ const int MAX_ARRAY_SIZE = 10;
 
 // This function returns the minimum value in the array
 int FindMinValue(std::array<int, MAX_ARRAY_SIZE> randIntList) {
-    // Initialize the variable to -1
-    int minValue = -1;
+    // Initialize the variable to 101
+    int minValue = 101;
 
     // Iterate through list to find min value
     for (int index : randIntList) {
